@@ -19,6 +19,7 @@
 
         <TextView
             android:id="@+id/title1"
+            android:fontFamily="@font/header"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="\n\nJadilah Seorang Pengajar"
@@ -28,6 +29,7 @@
             android:textStyle="bold" />
 
         <TextView
+            android:fontFamily="@font/subheader"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="\nLengkapi profil kamu dan\n temukan murid-muridmu tanpa\n perantara"

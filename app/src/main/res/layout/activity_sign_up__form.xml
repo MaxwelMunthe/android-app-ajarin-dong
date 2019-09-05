@@ -17,36 +17,36 @@
     android:orientation="vertical"
     tools:context=".SignUp_Form">
 
-<RelativeLayout
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:background="@drawable/button_roundedorange3"
-    >
+
 
 <TextView
     android:id="@+id/ic_buatakun"
+    android:textAllCaps="true"
+    android:fontFamily="@font/header"
+    android:layout_marginTop="40dp"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:text="Buat Akun"
     android:textSize="30sp"
     android:textStyle="bold"
     android:layout_marginLeft="30dp"
-    android:layout_marginTop="30dp"
-    android:textColor="@color/colorAccent"
+    android:textColor="@color/hitam"
 
     ></TextView>
     <TextView
+        android:typeface="sans"
+        android:fontFamily="@font/subheader"
+        android:id="@+id/ic_buatakun1"
         android:layout_below="@+id/ic_buatakun"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="19sp"
-        android:textStyle="bold"
+        android:textSize="25sp"
         android:layout_marginLeft="30dp"
-        android:textColor="@color/colorAccent"
+        android:textColor="@color/hitam"
         android:text="Bergabung dengan komunitas yang siap \nberbagi ilmu."
 
         ></TextView>
-</RelativeLayout>
+
 
 
     <com.google.android.material.textfield.TextInputLayout

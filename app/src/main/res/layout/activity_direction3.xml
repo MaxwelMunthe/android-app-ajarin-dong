@@ -18,6 +18,7 @@
             android:src="@drawable/ic_direction1"/>
 
         <TextView
+            android:fontFamily="@font/header"
             android:id="@+id/title1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -28,6 +29,7 @@
             android:textStyle="bold" />
 
         <TextView
+            android:fontFamily="@font/subheader"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="\nLengkapi profil kamu dan\n temukan murid-muridmu tanpa\n perantara"

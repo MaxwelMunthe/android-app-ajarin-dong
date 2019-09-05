@@ -1,0 +1,24 @@
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_mail"
+            android:icon="@drawable/ic_mail"
+            android:title="Pesan"/>
+        <item android:id="@+id/nav_mail1"
+            android:icon="@drawable/ic_mail"
+            android:title="Pesan"/>
+        <item android:id="@+id/nav_mail2"
+            android:icon="@drawable/ic_mail"
+            android:title="Pesan"/>
+        <item android:icon="@drawable/ic_mail"
+            android:title="pesan"></item>
+        <item
+            android:icon="@drawable/ic_mail"
+            android:title="pesan"></item>
+
+    </group>
+
+
+
+</menu>

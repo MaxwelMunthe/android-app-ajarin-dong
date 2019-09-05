@@ -3,4 +3,5 @@
     <color name="colorPrimary">#FD6A02</color>
     <color name="colorPrimaryDark">#E64509</color>
     <color name="colorAccent">#FFFFFF</color>
+    <color name="hitam">#000000</color>
 </resources>

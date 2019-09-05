@@ -13,8 +13,7 @@ class SignUp_Form : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_sign_up__form)
-        val typeface = Typeface.createFromAsset(assets, "Chelsea.ttf")
-        ic_buatakun.typeface = typeface
+
     }
 
     fun btn_signupPengajar (view: View) {
@@ -22,5 +21,7 @@ class SignUp_Form : AppCompatActivity() {
 
     fun btn_signupMurid (view: View) {
         startActivity(Intent(this, signupMurid::class.java))}
+
+
 
 }
