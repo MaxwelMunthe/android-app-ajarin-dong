@@ -3,13 +3,167 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".FifthFragment">
-
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".FirstFragment">
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:gravity="center"
-        android:text="Fragment lima" />
+        android:layout_height="wrap_content">
+        <LinearLayout
 
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_marginTop="30dp"
+                android:id="@+id/pictureprofil"
+                android:layout_marginLeft="30dp"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:background="@drawable/picture">
+            </ImageView>
+
+            <TextView
+                android:layout_marginLeft="15dp"
+                android:layout_gravity="center_vertical"
+                android:id="@+id/namaberanda"
+                android:textSize="22sp"
+                android:textColor="@color/hitam"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/pictureprofil"
+                android:fontFamily="@font/header"
+                android:hint="NAMA KAMU DI SINI" >
+            </TextView>
+            <ImageView
+                android:layout_marginTop="5dp"
+                android:background="@drawable/button_roundedorange3"
+                android:layout_width="match_parent"
+                android:layout_height="1dp">
+            </ImageView>
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="15dp"
+                android:fontFamily="@font/subheader"
+                android:text="Bio kamu tertulis di sini bray. ini yang kali orang baca tentang kamu. Tulis yang dapat menyakinkan "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </TextView>
+
+            <ImageView
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/button_roundedorange3"
+                android:layout_width="match_parent"
+                android:layout_height="1dp">
+            </ImageView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Pendidikan"
+                android:layout_marginLeft="15dp"
+                android:textColor="@color/hitam">
+            </TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Institut pertanian Bogor"
+                android:layout_marginLeft="25dp">
+            </TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sarjana Fisika"
+                android:layout_marginLeft="25dp">
+            </TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2014 - 2018"
+                android:layout_marginLeft="25dp">
+            </TextView>
+
+            <ImageView
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/button_roundedorange3"
+                android:layout_width="match_parent"
+                android:layout_height="1dp">
+            </ImageView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Subjek yang anda ajar"
+                android:layout_marginLeft="15dp"
+                android:textColor="@color/hitam">
+            </TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Matematika, Fisika"
+                android:layout_marginLeft="25dp">
+            </TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kelas dan tingkat berapa saja"
+                android:layout_marginLeft="25dp">
+            </TextView>
+            <ImageView
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/button_roundedorange3"
+                android:layout_width="match_parent"
+                android:layout_height="1dp">
+            </ImageView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kota tempat anda mengajar"
+                android:layout_marginLeft="15dp"
+                android:textColor="@color/hitam">
+            </TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bogor kota dan Bogor kabupaten"
+                android:layout_marginLeft="25dp">
+            </TextView>
+            <ImageView
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/button_roundedorange3"
+                android:layout_width="match_parent"
+                android:layout_height="1dp">
+            </ImageView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Pengalaman mengajar"
+                android:layout_marginLeft="15dp"
+                android:textColor="@color/hitam">
+            </TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sebutkan pengalaman mengajar anda\n\n\n\n"
+                android:layout_marginLeft="25dp">
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sebutkan pengalaman mengajar anda\n\n\n\n"
+                android:layout_marginLeft="25dp">
+            </TextView>
+
+            <ImageView
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/button_roundedorange3"
+                android:layout_width="match_parent"
+                android:layout_height="1dp">
+            </ImageView>
+        </LinearLayout>
+    </ScrollView>
 </FrameLayout>

@@ -14,16 +14,19 @@
             android:layout_width="75dp"
             android:layout_height="75dp"
             android:src="@drawable/picture"
-            android:layout_marginTop="15dp"
-            android:layout_marginLeft="15dp" ></ImageView>
+            android:layout_marginTop="45dp"
+            android:layout_marginLeft="15dp" >
+
+        </ImageView>
         <TextView
             android:textColor="@color/colorAccent"
-            android:layout_marginTop="60dp"
+            android:layout_marginTop="90dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_toRightOf="@+id/foto"
             android:fontFamily="@font/header"
-            android:hint="NAMA KAMU DI SINI" ></TextView>
+            android:hint="NAMA KAMU DI SINI" >
+        </TextView>
     </LinearLayout>
 
     <TextView
@@ -32,7 +35,8 @@
         android:fontFamily="@font/subheader"
         android:text="Bio kamu tertulis di sini, ini yang pertama kali orang lihat"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"></TextView>
+        android:layout_height="wrap_content"
+        ></TextView>
 
 
 

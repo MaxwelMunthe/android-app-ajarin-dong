@@ -2,9 +2,12 @@ package com.example.latihan
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.os.PersistableBundle
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import androidx.fragment.app.Fragment
 import android.widget.FrameLayout
+import androidx.core.view.GravityCompat
+import androidx.drawerlayout.widget.DrawerLayout
 import kotlinx.android.synthetic.main.activity_main.*
 
 
@@ -57,6 +60,8 @@ class MainActivity : AppCompatActivity() {
         navigation.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener)
         val fragment = FirstFragment.newInstance()
         addFragment(fragment)
-
+        val drawerLayout: DrawerLayout = findViewById(R.id.drawer_layout)
+        drawer_layout.closeDrawer(GravityCompat.START)
     }
+
 }

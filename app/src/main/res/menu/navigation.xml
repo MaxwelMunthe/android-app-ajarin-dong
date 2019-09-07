@@ -23,5 +23,5 @@
     <item
         android:id="@+id/navigation_lima"
         android:icon="@android:drawable/ic_menu_help"
-        android:title="Feedback" />
+        android:title="Profil" />
 </menu>
