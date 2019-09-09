@@ -3,22 +3,22 @@
     <item
         android:id="@+id/navigation_satu"
         android:icon="@android:drawable/ic_menu_agenda"
-        android:title="Beranda" />
+        android:title="Cari Pengajar" />
 
     <item
         android:id="@+id/navigation_dua"
         android:icon="@android:drawable/ic_menu_search"
-        android:title="Cari Pengajar" />
+        android:title="Cari Murid" />
 
     <item
         android:id="@+id/navigation_tiga"
         android:icon="@android:drawable/ic_menu_add"
-        android:title="Add" />
+        android:title="Notifikasi" />
 
     <item
         android:id="@+id/navigation_empat"
         android:icon="@android:drawable/ic_menu_directions"
-        android:title="Cari Murid" />
+        android:title="Aktivitas" />
 
     <item
         android:id="@+id/navigation_lima"

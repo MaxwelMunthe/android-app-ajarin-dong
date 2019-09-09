@@ -2,24 +2,29 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <group android:checkableBehavior="single">
         <item
-            android:icon="@drawable/ic_mail"
+            android:id="@+id/ic_profil"
+            android:icon="@drawable/ic_picture"
             android:title="Profil">
         </item>
 
         <item
-            android:icon="@drawable/ic_mail"
-            android:title="pesan">
+            android:id="@+id/ic_notif"
+            android:icon="@drawable/ic_notif"
+            android:title="Pemberitahuan">
         </item>
         <item
-            android:icon="@drawable/ic_mail"
+            android:id="@+id/ic_pengaturan"
+            android:icon="@drawable/ic_settings"
             android:title="Pengaturan">
         </item>
         <item
-            android:icon="@drawable/ic_mail"
+            android:id="@+id/ic_keluar"
+            android:icon="@drawable/ic_exit"
             android:title="Keluar">
         </item>
         <item
-            android:icon="@drawable/ic_mail"
+            android:id="@+id/ic_kami"
+            android:icon="@drawable/ic_kami"
             android:title="Tentang Kami">
         </item>
     </group>

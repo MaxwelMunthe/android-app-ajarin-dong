@@ -43,7 +43,7 @@
         android:textSize="25sp"
         android:layout_marginLeft="30dp"
         android:textColor="@color/hitam"
-        android:text="Bergabung dengan komunitas yang siap \nberbagi ilmu."
+        android:text="Bergabung dengan komunitas yang siap berbagi ilmu."
 
         ></TextView>
 
@@ -64,7 +64,7 @@
             android:layout_height="wrap_content"
             android:hint="Nama Lengkap"
             android:ems="10"
-            android:inputType="text"
+            android:inputType="textPersonName"
             android:textSize="20sp"/>
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -105,9 +105,28 @@
             android:layout_height="wrap_content"
             android:hint="Tanggal Lahir (cth 31-02-2001)"
             android:ems="10"
-            android:inputType="text"
+            android:inputType="datetime"
             android:textSize="20sp"/>
     </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:paddingTop="5dp"
+    android:paddingLeft="30dp"
+    android:paddingRight="30dp">
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tempat Domisili"
+        android:ems="10"
+        android:inputType="textLongMessage"
+        android:textSize="20sp"/>
+</com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
         android:layout_width="match_parent"
@@ -122,11 +141,66 @@
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Tempat Domisili"
+            android:hint="kelurahan"
             android:ems="10"
-            android:inputType="text"
+            android:inputType="textLongMessage"
             android:textSize="20sp"/>
     </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:paddingTop="5dp"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp">
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Kecamatan"
+            android:ems="10"
+            android:inputType="textLongMessage"
+            android:textSize="20sp"/>
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:paddingTop="5dp"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp">
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Kabupaten"
+            android:ems="10"
+            android:inputType="textLongMessage"
+            android:textSize="20sp"/>
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:paddingTop="5dp"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp">
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Provinsi"
+            android:ems="10"
+            android:inputType="textLongMessage"
+            android:textSize="20sp"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
 
     <com.google.android.material.textfield.TextInputLayout
         android:layout_width="match_parent"
@@ -143,7 +217,7 @@
             android:layout_height="wrap_content"
             android:hint="Nomor Handphone"
             android:ems="10"
-            android:inputType="text"
+            android:inputType="phone"
             android:textSize="20sp"/>
     </com.google.android.material.textfield.TextInputLayout>
     <com.google.android.material.textfield.TextInputLayout
@@ -160,7 +234,7 @@
             android:layout_height="wrap_content"
             android:hint="E-mail"
             android:ems="10"
-            android:inputType="text"
+            android:inputType="textWebEmailAddress"
             android:textSize="20sp"/>
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -230,8 +304,18 @@
                 android:textSize="18sp"
                 android:layout_marginLeft="5dp"/>
         </RadioGroup>
-
     </RelativeLayout>
+    <TextView
+        android:id="@+id/upload_foto"
+        android:paddingTop="5dp"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:textSize="20sp"
+        android:ems="10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Upload Foto(klik saya)">
+    </TextView>
 
 
     <TextView
@@ -277,6 +361,8 @@
             android:layout_marginRight="30dp"
             android:onClick="btn_signupMurid"
             />
+
+
     </RelativeLayout>
 
 

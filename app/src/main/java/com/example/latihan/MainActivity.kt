@@ -64,4 +64,5 @@ class MainActivity : AppCompatActivity() {
         drawer_layout.closeDrawer(GravityCompat.START)
     }
 
+
 }

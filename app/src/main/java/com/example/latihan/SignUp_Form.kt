@@ -2,17 +2,20 @@ package com.example.latihan
 
 import android.content.Intent
 import android.graphics.Typeface
+import android.os.Build
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.widget.ActionMenuView
 import kotlinx.android.synthetic.main.activity_sign_up__form.*
+import java.util.jar.Manifest
 
 class SignUp_Form : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_sign_up__form)
+
 
     }
 

@@ -43,7 +43,7 @@
             android:layout_height="wrap_content"
             android:hint="Universitas"
             android:ems="10"
-            android:inputType="text"
+            android:inputType="textLongMessage"
             android:textSize="20sp"/>
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -61,7 +61,7 @@
             android:layout_height="wrap_content"
             android:hint="Jurusan"
             android:ems="10"
-            android:inputType="text"
+            android:inputType="textLongMessage"
             android:textSize="20sp"/>
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -79,7 +79,7 @@
             android:layout_height="wrap_content"
             android:hint="Semester"
             android:ems="10"
-            android:inputType="text"
+            android:inputType="text|number"
             android:textSize="20sp"/>
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -97,9 +97,78 @@
             android:layout_height="wrap_content"
             android:hint="IPK"
             android:ems="10"
+            android:inputType="text|number"
+            android:textSize="20sp"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:paddingTop="5dp"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Mata pelajaran yang akan diajarkan"
+            android:ems="10"
             android:inputType="text"
             android:textSize="20sp"/>
     </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:fontFamily="@font/header"
+        android:id="@+id/ic_pengalamanmengajar"
+        android:layout_width="wrap_content"
+        android:layout_height="36dp"
+        android:text="PENGALAMAN MENGAJAR"
+        android:textSize="25sp"
+        android:textColor="@color/hitam"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        />
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:paddingTop="5dp"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Durasi mengajar cth: 1 tahun 2 bulan"
+            android:ems="10"
+            android:inputType="textLongMessage"
+            android:textSize="20sp"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:paddingTop="5dp"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Pengalaman mengajar"
+            android:ems="10"
+            android:inputType="textLongMessage"
+            android:textSize="20sp"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+
 
     <Button
         android:layout_width="match_parent"

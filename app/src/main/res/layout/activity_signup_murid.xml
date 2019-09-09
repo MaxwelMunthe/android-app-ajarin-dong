@@ -44,7 +44,6 @@
             android:layout_height="wrap_content"
             android:hint="TINGKAT PENDIDIKAN"
             android:ems="10"
-            android:inputType="text"
             android:textSize="20sp" />
         <RelativeLayout
             android:layout_width="wrap_content"
@@ -98,7 +97,7 @@
             android:layout_height="wrap_content"
             android:hint="Nama Sekolah"
             android:ems="10"
-            android:inputType="text"
+            android:inputType="textLongMessage"
             android:textSize="20sp"/>
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -116,7 +115,7 @@
             android:layout_height="wrap_content"
             android:hint="Jurusan"
             android:ems="10"
-            android:inputType="text"
+            android:inputType="textLongMessage"
             android:textSize="20sp"/>
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -165,7 +164,7 @@
             android:layout_height="wrap_content"
             android:hint="Nama"
             android:ems="10"
-            android:inputType="text"
+            android:inputType="textPersonName"
             android:textSize="20sp"/>
     </com.google.android.material.textfield.TextInputLayout>
     <com.google.android.material.textfield.TextInputLayout
@@ -182,7 +181,7 @@
             android:layout_height="wrap_content"
             android:hint="Tempat Domisili"
             android:ems="10"
-            android:inputType="text"
+            android:inputType="textLongMessage"
             android:textSize="20sp"/>
     </com.google.android.material.textfield.TextInputLayout>
     <com.google.android.material.textfield.TextInputLayout
@@ -199,7 +198,7 @@
             android:layout_height="wrap_content"
             android:hint="Nomor Handphone"
             android:ems="10"
-            android:inputType="text"
+            android:inputType="phone"
             android:textSize="20sp"/>
     </com.google.android.material.textfield.TextInputLayout>
 
